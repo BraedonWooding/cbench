@@ -40,6 +40,12 @@
 #include <time.h>
 #endif
 
+#define CBENCH_MAJOR_V "1"
+#define CBENCH_MINOR_V "0"
+#define CBENCH_PATCH_V "a"
+
+#define CBENCH_VERSION CBENCH_MAJOR_V "." CBENCH_MINOR_V "." CBENCH_PATCH_V
+
 /*
     Represents a time split into user and system components.
 */
@@ -208,4 +214,3 @@ cbenchTime cbenchGetTime() {
 }
 
 #endif /* CBench.h */
-
